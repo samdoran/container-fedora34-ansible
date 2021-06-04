@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora:34
+FROM quay.io/fedora/fedora:34-x86_64
 ENV container=docker
 
 RUN dnf makecache && dnf -y update && dnf clean all
